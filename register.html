@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration form</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="assets/css/nunito-font.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="assets/css/style2.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e9ec2a086b.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="form-v6">
+	<div class="page-content">
+		<div class="form-v6-content">
+			<div class="form-left">
+				
+			</div>
+			<form class="form-detail" action="#" method="post">
+				<h2>Register Form</h2>
+				<div class="form-row d-inline">
+					<input type="email" name="full-name" id="full-name" class="input-text" placeholder="Enter Your Email" required>
+				</div>
+				<div class="form-row d-inline">
+					<input type="text" name="full-name" id="full-name" class="input-text" placeholder="Your Name" required>
+				</div>
+				<div class="form-row">
+					<input type="text" name="your-email" id="your-email" class="input-text" placeholder="Username" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+				</div>
+				<div class="form-row">
+					<input type="text" name="password" id="password" class="input-text" placeholder="Gender" required>
+				</div>
+				<div class="form-row">
+					<input type="password" name="comfirm-password" id="comfirm-password" class="input-text" placeholder="Password" required>
+				</div>
+				<div class="form-row-last">
+					<input type="submit" name="register" class="register" value="Register">
+				</div>
+				<a href="index.html" class="btn btn-google btn-danger bg-gradiant  w-100 mb-1 rounded-pill">
+                                    <i class="fab fa-google fa-fw"></i> Register with Google
+                                </a>
+                                <a href="index.html" class="btn btn-facebook btn-primary w-100 rounded-pill">
+                                    <i class="fab fa-facebook-f fa-fw"></i> Register with Facebook
+                                </a>
+                                <hr>
+                            <div class="text-center">
+                                <a class="small" href="forgot-password.html">Forgot Password?</a>
+                            </div>
+                            <div class="text-center">
+                                <a class="small" href="loginform.html">Already have an account? Login!</a>
+                            </div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
